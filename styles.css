@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+}
+
+.container {
+  width: 100%;
+  padding: 0px 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 550;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about h2 {
+  line-height: 1;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.about h3 {
+  margin: 20px 0px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about span {
+  color: orangered;
+}
+
+.btn button {
+  width: 25%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.btn:first-child {
+  background-color: orangered;
+}
+
+/* RESUME */
+
+.resume {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: justify;
+  gap: 20px;
+}
+
+section .my-resume {
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: -23px 20px 3px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.resume .journey {
+  padding: 20px;
+  box-shadow: 3px 4px 5px wheat;
+}
+
+.journey h3,
+h4 {
+  margin: 10px 0px;
+}
+
+.skls {
+  margin: 30px 0px;
+}
+
+.my-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+
+.skls #skills {
+  text-align: center;
+  text-shadow: -23px 20px 3px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#skills {
+  text-align: center;
+}
+
+.knowledge {
+  padding: 20px;
+}
+
+.skill-photoshop {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-photoshop {
+  width: 75%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill-html {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-html {
+  width: 95%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill-css {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-css {
+  width: 65%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill-javascript {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-javascript {
+  width: 48%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill-react {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-react {
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+}
+
+.skill-python {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  border: 2px solid wheat;
+}
+
+.skill2-python {
+  width: 50%;
+  height: 100%;
+  background-color: grey;
+}
+
+@media (min-width: 1099px) {
+  .resume {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1rem;
+  }
+
+  .my-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .resume {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .my-skills {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+  }
+
+  .knowledge {
+    padding: 2px;
+  }
+}
